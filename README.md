@@ -1,4 +1,4 @@
-Developer web app shell to quickly build and test components, CSS, and JS in a web or NodeJS environment.
+Quickly develop and test HTML, CSS, and JavaScript local web environment.
 
 ## NodeJS Prereqs
 
