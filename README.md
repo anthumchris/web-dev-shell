@@ -1,18 +1,21 @@
 Quickly develop and test HTML, CSS, and JavaScript in a modern, local web environment.
 
-## NodeJS Prereqs
+## Prerequesites
+1. Install [NodeJS/NPM](https://nodejs.org/en/download/current/), if needed.
+1. Optionally, install [Yarn](https://yarnpkg.com/getting-started/install), a newer alternative to NPM.
+1. Install [Parcel](https://v2.parceljs.org/) globally.  Parcel v2 (`@next`) is currently recommended at the time of writing.  From a command line, run:
 
-Install [NodeJS](https://nodejs.org/en/) if needed.  Then, install [Parcel](https://parceljs.org/) globally.  Parcel v2 (`@next`) is currently recommended at the time of writing.  From a command line, run:
-
-```$ yarn global add parcel@next```
-
-or
-
-```$ npm install -g parcel@next```
+    ```
+    $ npm install -g parcel@next
+    ```
+    or
+    ```
+    $ yarn global add parcel@next
+    ```
 
 ## Usage
 
-Parcel will start a webserver, watch for changes to files in `src/*`, automatically rebuild the project's JS/CSS files, and hot reload the browser.  Parcel automatically downloads and installs any package dependencies if it finds certain files or syntax in your code (e.g. TypeScript, SASS/LESS, lit-html, Preact, React, etc).
+Parcel will start a webserver, watch for changes to files in `src/` folder, automatically rebuild the project's HTML/JS/CSS code, and hot reload the browser.  Parcel automatically downloads and installs any package dependencies if it finds certain files or syntax in your code (e.g. TypeScript, SASS/LESS, lit-html, Preact, React, etc).
 
 From a command line, run:
 
