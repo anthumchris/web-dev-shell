@@ -1,6 +1,6 @@
 # Web Developer Shell
 
-Quickly develop and test modern HTML, CSS, and JavaScript in a fast, local web environment.  Intended for new or experienced developers.
+Quickly develop and test modern HTML, CSS, and JavaScript in a fast, local web environment.  Intended for both new and experienced developers.
 
 ## Prerequesites
 1. Install [NodeJS/NPM](https://nodejs.org/en/download/current/), if needed.
