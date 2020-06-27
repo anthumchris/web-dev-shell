@@ -1,3 +1,5 @@
+Web Starter Shell
+
 Quickly develop and test HTML, CSS, and JavaScript in a modern, local web environment.
 
 ## Prerequesites
