@@ -12,7 +12,7 @@ or
 
 ## Usage
 
-Parcel will start a webserver, watch for changes to files in src/*, automatically rebuild the project's JS/CSS files, and hotreload the browser.  Parcel automatically downloads and installs any package dependencies if it finds them in your code (TypeScript, SASS/LESS, lit-html, Preact, React, etc).
+Parcel will start a webserver, watch for changes to files in `src/*`, automatically rebuild the project's JS/CSS files, and hot reload the browser.  Parcel automatically downloads and installs any package dependencies if it finds them in your code (TypeScript, SASS/LESS, lit-html, Preact, React, etc).
 
 ```sh
 $ parcel src/index.html
