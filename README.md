@@ -2,7 +2,7 @@ Developer web app shell to quickly build and test components, CSS, and JS in a w
 
 ## NodeJS Prereqs
 
-Install [Parcel](https://parceljs.org/) globally.  Parcel v2 (`@next`) is currently recommended at the time of writing.
+Install [NodeJS](https://nodejs.org/en/) if needed.  Then, install [Parcel](https://parceljs.org/) globally.  Parcel v2 (`@next`) is currently recommended at the time of writing.  From a command line, run:
 
 ```$ yarn global add parcel@next```
 
@@ -13,6 +13,8 @@ or
 ## Usage
 
 Parcel will start a webserver, watch for changes to files in `src/*`, automatically rebuild the project's JS/CSS files, and hot reload the browser.  Parcel automatically downloads and installs any package dependencies if it finds them in your code (TypeScript, SASS/LESS, lit-html, Preact, React, etc).
+
+From a command line, run:
 
 ```sh
 $ parcel src/index.html
