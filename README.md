@@ -2,11 +2,18 @@ Developer web app shell to quickly build and test components, CSS, and JS in a w
 
 ## NodeJS Prereqs
 
-- Install [Parcel](https://parceljs.org/) globally
+Install [Parcel](https://parceljs.org/) globally.  Parcel v2 (`@next`) is currently recommended at the time of writing.
+```
+$ yarn global add parcel@next
+```
+\- or -
+```
+$ npm install -g parcel@next
+```
 
 ## Usage
 
-Parcel will start a webserver, watch for changes to files in src/*, and automatically rebuild and hotreload the browser.  Parcel automatically downloads and installs any package dependencies if it finds them in your code (lit-html, Preact, etc).
+Parcel will start a webserver, watch for changes to files in src/*, automatically rebuild the project's JS/CSS files, and hotreload the browser.  Parcel automatically downloads and installs any package dependencies if it finds them in your code (TypeScript, SASS/LESS, lit-html, Preact, React, etc).
 
 ```sh
 $ parcel src/index.html
