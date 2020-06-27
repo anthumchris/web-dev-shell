@@ -1,4 +1,4 @@
-Quickly develop and test HTML, CSS, and JavaScript local web environment.
+Quickly develop and test HTML, CSS, and JavaScript in a modern, local web environment.
 
 ## NodeJS Prereqs
 
