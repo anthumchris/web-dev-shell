@@ -5,7 +5,9 @@ Developer web app shell to quickly build and test components, CSS, and JS in a w
 Install [Parcel](https://parceljs.org/) globally.  Parcel v2 (`@next`) is currently recommended at the time of writing.
 
 ```$ yarn global add parcel@next```
+
 or
+
 ```$ npm install -g parcel@next```
 
 ## Usage
