@@ -1,1 +1,1 @@
-export default 'Welcome! ' + new Date().toUTCString()
+export const welcome = 'Welcome! ' + new Date().toLocaleString()

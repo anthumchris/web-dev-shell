@@ -1,30 +1,27 @@
-# Web Developer Shell
+# Web developer app shell
 
-Quickly develop and test modern HTML, CSS, and JavaScript in a fast, local web environment.  Intended for both new and experienced developers.
+Quickly develop and test modern HTML, CSS, and JavaScript in a fast, local web environment.
+Intended as a quick setup for new and experienced web developers.
 
 ## Prerequesites
-1. Install [NodeJS/NPM](https://nodejs.org/en/download/current/), if needed.
-1. Optionally, install [Yarn](https://yarnpkg.com/getting-started/install), a newer alternative to NPM. ([Read more](https://spin.atomicobject.com/2020/03/15/why-yarn-2020/))
-1. Install [Parcel](https://parceljs.org/) globally.  Parcel v2 is currently recommended at the time of writing.  From a command line, run:
+1. Install [NodeJS / NPM](https://nodejs.org/en/download/current/), if needed.
+1. Install [Vite](https://vite.dev/) globally. From a command line, run:
 
     ```bash
-    $ npm install -g parcel@2
-
-            -- or --
-        
-    $ yarn global add parcel@2
+    npm install --global vite
     ```
 
 ## Usage
 
-Parcel will start a webserver, watch for changes to files in `src/` folder, automatically rebuild the project's HTML/JS/CSS code, and hot reload the browser.  Parcel automatically downloads and installs any package dependencies if it finds certain files or syntax in your code (e.g. TypeScript, SASS/LESS, lit-html, Preact, React, etc).
-
 From a command line, run:
 
 ```sh
-$ parcel src/index.html
+vite
 ```
 
 Open the server's webpage and begin coding!
 
-http://localhost:1234
+http://localhost:5173/
+
+Vite will start a web server, watch for file changes in `src/` folder, and hot reload the browser.
+

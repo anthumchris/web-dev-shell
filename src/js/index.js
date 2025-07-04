@@ -1,4 +1,4 @@
-import welcome from './components/Welcome'
+import { welcome } from './components/Welcome'
 
 init()
 
